@@ -1,14 +1,14 @@
-import logo from "../../logo.svg";
-
+import React from "react";
 import "./App.css";
+import BusinessList from "../BusinessList/BusinessList";
+import SearchBar from "../SearchBar/SearchBar";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>oh hai me.</p>
-      </header>
+      <h1>ravenous</h1>
+      <SearchBar />
+      <BusinessList />
     </div>
   );
 }
